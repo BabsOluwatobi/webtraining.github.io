@@ -1,0 +1,136 @@
+/* Style the alert box */
+.alert-box {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%px;
+    max-width: 800px;
+    padding: 20px;
+    background: #2563eb; /* Red background */
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+}
+
+/* Show the alert */
+.alert-box.show {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+/* Alert Button */
+.alert-box button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: white;
+    color: #2563eb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.alert-box button:hover {
+    background: #ddd;
+}
+
+
+ body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    .slide {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto 40px;
+      padding: 40px;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    .title {
+      color: #2c3e50;
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .subtitle {
+      color: #34495e;
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .content {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #444;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .bullet {
+      list-style-type: disc;
+    }
+    .number {
+      list-style-type: decimal;
+    }
+
+    img{
+        height: 100px;
+        width:100px;
+        border-radius: 1px;
+        max-width: 800px;
+        max-height: 700px;
+    }
+
+    .img1{
+        max-width: 800px;
+        width: 100%;
+    }
+
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+}
+
+#slide1{
+
+    margin-top: 60px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.dwn-btn{
+        display: flex; 
+        align-items: center; 
+        gap: 8px; 
+        padding: 8px 16px; 
+        background-color: #2563eb; 
+        color: white; 
+        border: none; 
+        border-radius: 8px; 
+        cursor: pointer; 
+        transition: background-color 0.2s;
+     }
+
+.dwn-btn:hover {
+        background-color: #218838;
+     }
